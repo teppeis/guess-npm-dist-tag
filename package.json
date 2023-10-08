@@ -9,7 +9,9 @@
   "author": "Teppei Sato <teppeis@gmail.com>",
   "type": "module",
   "main": "src/index.js",
-  "files": [],
+  "files": [
+    "src"
+  ],
   "scripts": {
     "fix": "run-s fix:prettier fix:eslint",
     "fix:eslint": "npm run lint:eslint -- --fix",

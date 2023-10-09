@@ -43,7 +43,3 @@ MIT License: Teppei Sato &lt;teppeis@gmail.com&gt;
 [license]: https://badgen.net/npm/license/guess-npm-dist-tag
 [ci-image]: https://github.com/teppeis/guess-npm-dist-tag/workflows/ci/badge.svg
 [ci-url]: https://github.com/teppeis/guess-npm-dist-tag/actions?query=workflow%3Aci
-
-```
-
-```

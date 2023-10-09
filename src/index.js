@@ -1,4 +1,4 @@
-import assert from "assert";
+import assert from "node:assert";
 import SemVer from "semver/classes/semver.js";
 
 /**

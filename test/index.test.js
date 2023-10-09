@@ -2,6 +2,9 @@ import assert from "node:assert/strict";
 import { it } from "node:test";
 import { guessDistTagWithLatest } from "../src/index.js";
 
+it("latest version is null: latest", () => {
+  assert.equal(guessDistTagWithLatest("1.0.0", null), "latest");
+});
 it("increment patch: latest", () => {
   assert.equal(guessDistTagWithLatest("1.0.1", "1.0.0"), "latest");
 });

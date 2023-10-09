@@ -9,6 +9,9 @@
   "author": "Teppei Sato <teppeis@gmail.com>",
   "type": "module",
   "main": "src/index.js",
+  "bin": {
+    "guess-npm-dist-tag": "src/cli.js"
+  },
   "files": [
     "src"
   ],

@@ -5,6 +5,10 @@
   "keywords": [
     "npm"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teppeis/guess-npm-dist-tag.git"
+  },
   "license": "MIT",
   "author": "Teppei Sato <teppeis@gmail.com>",
   "type": "module",

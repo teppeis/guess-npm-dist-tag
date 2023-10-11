@@ -37,9 +37,9 @@ See [setup-node](https://github.com/actions/setup-node) and ["Publishing Node.js
 
 MIT License: Teppei Sato &lt;teppeis@gmail.com&gt;
 
-[npm-image]: https://badgen.net/npm/v/guess-npm-dist-tag?icon=npm&label=&a
-[npm-url]: https://npmjs.org/package/guess-npm-dist-tag?a
-[node-version]: https://badgen.net/npm/node/guess-npm-dist-tag?a
-[license]: https://badgen.net/npm/license/guess-npm-dist-tag?a
+[npm-image]: https://badgen.net/npm/v/guess-npm-dist-tag?icon=npm&label=
+[npm-url]: https://npmjs.org/package/guess-npm-dist-tag
+[node-version]: https://badgen.net/npm/node/guess-npm-dist-tag
+[license]: https://badgen.net/npm/license/guess-npm-dist-tag
 [ci-image]: https://github.com/teppeis/guess-npm-dist-tag/workflows/ci/badge.svg
 [ci-url]: https://github.com/teppeis/guess-npm-dist-tag/actions?query=workflow%3Aci

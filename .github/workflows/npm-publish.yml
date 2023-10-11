@@ -17,6 +17,7 @@ jobs:
           registry-url: "https://registry.npmjs.org"
       - run: npm ci
       - run: npm test
-      - run: npm publish
+      - run: echo "dist_tag=$(npx guess-npm-dist-tag)" >> "$GITHUB_ENV"
+      - run: npm publish --tag "$dist-tag"
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

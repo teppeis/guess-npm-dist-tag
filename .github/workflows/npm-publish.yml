@@ -18,6 +18,6 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: echo "dist_tag=$(npx guess-npm-dist-tag)" >> "$GITHUB_ENV"
-      - run: npm publish --tag "$dist-tag"
+      - run: npm publish --tag "$dist_tag"
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

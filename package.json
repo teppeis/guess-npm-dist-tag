@@ -27,7 +27,7 @@
     "lint:eslint": "eslint .",
     "lint:prettier": "prettier --check .",
     "test": "run-p -l --aggregate-output lint:* unit",
-    "unit": "node test/index.test.js"
+    "unit": "node --test --test-reporter=spec test"
   },
   "dependencies": {
     "semver": "^7.5.4"

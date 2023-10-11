@@ -1,6 +1,6 @@
 {
   "name": "guess-npm-dist-tag",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Automatically determine the dist-tag from the current latest and the new version number when `npm publish`",
   "keywords": [
     "npm"
